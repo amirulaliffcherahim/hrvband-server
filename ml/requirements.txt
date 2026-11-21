@@ -1,0 +1,15 @@
+psycopg[binary]>=3.2
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+xgboost>=2.1
+transformers>=4.46
+safetensors>=0.4
+huggingface_hub>=0.26
+datasets>=2.20
+deprecated>=1.2
+einops>=0.7
+# Install CPU PyTorch separately:
+# pip install --index-url https://download.pytorch.org/whl/cpu torch
+# Install IBM Granite TSFM:
+# pip install --no-deps "git+https://github.com/ibm-granite/granite-tsfm.git"
